@@ -1,0 +1,14 @@
+{
+    "UrlApi": "https://",
+    "azureADSettings": {
+        "issuer": "https://demo.identityserver.io",
+        "requireHttps": true,
+        "silentRefreshRedirectUri": "http://localhost:4200/silent-refresh.html",
+        "clientId": "implicit",
+        "scope": "openid profile email api"
+    },
+    "appInsightsConfig": {
+        "instrumentationKey": "6b3ec3c9-0723-4051-9080-784f152fc7e3",
+        "logPageView": false
+    }
+}
